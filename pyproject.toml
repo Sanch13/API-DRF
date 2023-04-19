@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "api-drf"
+version = "0.1.0"
+description = ""
+authors = ["sanch13 <sanch13sanch@gmail.com>"]
+readme = "README.md"
+packages = [{include = "api_drf"}]
+
+[tool.poetry.dependencies]
+python = "3.11"
+django = "4.2"
+djangorestframework = "^3.14.0"
+pygments = "^2.15.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
